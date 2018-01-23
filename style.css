@@ -1,34 +1,36 @@
 /*Main*/
 body {
+  margin: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   font-size: small;
   font-family: Arial,sans-serif;
 }
 
 /*Navs*/
 footer {
-  background-color: #f2f2f2
-  border-top: 1px solid #e4e4e4
-  position:absolute;
+  background-color: #f2f2f2;
+  border-top: solid #e4e4e4;
+  position: absolute;
   bottom: 0;
-  width: 100%
+  width: 100%;
 }
 
-.nav-head .right {
-margin-top: -10px
+.nav-header .right {
+margin-top: -10px;
 }
 
-.nav-head .left {
+.nav-header .left {
   margin-top: 3px;
 }
 
 .nav-footer a {
-  color: #666666
+  color: #666666;
 }
 
 ul {
-  overflow:hidden;
+  list-style-type: none;
+  overflow: autohidden;
   padding: 20px 17px;
 }
 
@@ -64,10 +66,15 @@ a:hover {
 }
 
 .logo {
-  padding-top: 109px
+  padding-top: 109px;
+  text-align: center;
 }
 
 /*Form*/
+
+.searchbar {
+  text-align: center;
+}
 
 input[type=text] {
   display: block;
