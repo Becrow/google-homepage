@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-  <title>google.co.uk</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<!--Navbar-->
-<ul>
-<li><a href="#">About</li>
-<li><a href="#">Store</li>
-<li style="float:right"><a href="#">Gmail</li>
-<li style="float:right"><a href="#">images</li>
-<li style="float:right"><a href="#">apps</li>
-<li style="float:right"><a href="#">notifications</li>
-<li style="float:right"><a href="#">account</li>
-</ul>
-<!--end-navbar-->
-  <!--Google logo image-->
-  <div id="logo">
-    <img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-    alt="Google">
-  </div>
+  <head>
+    <title>google.co.uk</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <ul class="nav-head">
+        <li class="left">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </li>
+        <li class="right">
+          <a href="#">Gmail</a>
+          <a href="#">images</a>
+          <a href="#"><img src="./google-images/google-apps.png">apps</a>
+          <a href="#"><img src="./google-images/google-notifications.png">notifications</a>
+          <a href="#"><img src="./google-images/google-account.png">account</a>
+        </li>
+      </ul>
+    </header>
+    <!--end-navbar-->
+
+    <!--Google logo image-->
+    <div class="logo">
+      <img src="./google-images/google-logo.png"
+      alt="Google">
+    </div>
   <!--end-image-->
 
   <!--Searchbar Form-->
-  <form id="searchbar">
-  <input type="search" search="Search Google">
-  </form>
+    <div class="form">
+      <form class="searchbar" action="#" method="get">
+        <input type="text" style="max-width:548px"><br>
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm feeling Lucky">
+      </form>
   <!--end-form-->
-  <!-- Buttons -->
-  <div id="searchbuttons">
-  <button type="button">Google Search</button>
-  <button type="button">I'm Feeling Lucky</button>
-  </div>
 
   <!--Footer-->
-  <ul>
-  <li><a href="#">Advertising</li>
-  <li><a href="#">Buisness</li>
-  <li style="float:right"><a href="#">Privacy</li>
-  <li style="float:right"><a href="#">Terms</li>
-  <li style="float:right"><a href="#">Settings</li>
-  </ul>
+    <footer>
+      <ul class="nav-footer">
+        <li class="left">
+          <a href="#">Advertising</a>
+          <a href="#">Buisness</a>
+        </li>
+        <li class="right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </li>
+      </ul>
+    </footer>
   <!--end-footer-->
-</body>
+  </body>
 </html>
